@@ -88,3 +88,4 @@ Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
 [0.020755379994329998, 0.9943]
 
 # Approach
+I figured in order to reduce the number of parameters, we have to either add maxPooling layer or 1x1 layer. When I added both 1x1 and maxPooling, the number of parameters got reduced but the accuracy went down. So, instead of adding both, I only added one 1x1 layer.The number of parameters decreased and I got 99.4 accuracy as required
